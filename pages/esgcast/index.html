@@ -1,0 +1,98 @@
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <title>ESGCAST</title>
+  <link rel="icon" href="../../assets/images/logos/tab_icon.png">
+
+  <link rel="stylesheet" type="text/css" href="../../_libs/semantic/semantic.min.css">
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous">
+    </script>
+  <script src="../../_libs/semantic/semantic.min.js"></script>
+  <script src="../../js/components/header.js"></script>
+  <script src="../../js/components/footer.js"></script>
+
+  <link rel="stylesheet" href="../../styles/global.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="ui modal transition" id="contactHeaderForm">
+    <i class="close icon"></i>
+    <div class="header">
+      Envie-nos uma mensagem.
+    </div>
+    <div class="scrolling content">
+      <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/embed/v2.js"></script>
+      <script>
+        hbspt.forms.create({
+          region: "na1",
+          portalId: "22203130",
+          formId: "0dbc9e95-6d98-435b-9408-bc02ea5999a1",
+          onFormSubmit: ($form) => {
+            setTimeout(() => {
+              $('#contactForm').modal('hide');
+            }, 2000);
+          }
+        });
+      </script>
+    </div>
+  </div>
+  <custom-header class="custom-header"></custom-header>
+  <div class="container">
+    <div class="banner">
+      <h1>
+        ESGCAST
+        <p id="subtitulo">O primeiro podcast do Brasil focado em ESG</p>
+      </h1>
+    </div>
+    <div class="nb description">
+      <div class="nb description left" style="display: contents;">
+        <h1>
+          Primeiro do Brasil
+        </h1>
+      </div>
+      <div class="nb description middle">
+        <div class="vl"></div>
+      </div>
+      <div class="nb description right">
+        <h1>ESGCAST - Powered by Nobis</h1>
+        <p>
+          O primeiro podcast de ESG focado em contextos atuais, com diálogos, debates com relevância e conhecimento.
+          Atualmente com mais de 3000 reproduções em 10 países.
+        </p>
+      </div>
+    </div>
+    <br><br>
+    <iframe style="border-radius:12px;"
+      src="https://open.spotify.com/embed/playlist/1y0rOHpyMRsr6BUOfS86Qs?utm_source=generator&theme=0" width="80%"
+      height="380" frameBorder="0" allowfullscreen=""
+      allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+  </div>
+  <br><br>
+  <h1 class="title">Disponíveis nas plataformas:</h1>
+
+  <table class="lista">
+    <tr>
+      <td rowspan="3"><a target="_blank" href="https://www.youtube.com/channel/UCWmwQLADicKZdFQg0TyXDwQ"><img
+            id="youtube" src="../../assets/images/icons/ESGCAST.png"></a></td>
+      <td><a target="_blank" href="https://open.spotify.com/show/0PSB4DOHZrrKOZH5Oouk7i?si=d4a05691b4604043"><img
+            src="../../assets/images/icons/spotify.png"></a></td>
+    </tr>
+    <tr>
+      <td><a target="_blank" href="https://anchor.fm/esgcast"><img src="../../assets/images/icons/anchor.png"></a></td>
+    </tr>
+    <tr>
+      <td><a target="_blank"
+          href="https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy83OTkwMGExNC9wb2RjYXN0L3Jzcw?sa=X&ved=0CAMQ4aUDahcKEwjY_NKvivj0AhUAAAAAHQAAAAAQPw"><img
+            id="google" src="../../assets/images/icons/google-podcasts.png"></a></td>
+    </tr>
+  </table>
+</body>
+<footer style="margin-top: 10%">
+  <custom-footer></custom-footer>
+</footer>
+
+</html>

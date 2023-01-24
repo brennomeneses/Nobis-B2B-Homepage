@@ -1,0 +1,263 @@
+footer {
+  margin-top: 5%;
+}
+
+.container {
+  position: relative;
+  display: grid;
+  place-items: center;
+  width: 100%;
+  color: white;
+}
+
+.container h1 {
+  text-align: center;
+}
+
+.nb.about-us {
+  display: flex;
+  width: 87%;
+  height: 400px;
+  margin: 5% 0 7% 0;
+}
+
+.nb.about-us div {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  
+  width: 65%;
+  height: 100%;
+}
+.nb.about-us div > p {
+  font-size: 20px;
+}
+
+.nb.about-us img {
+  width: auto;
+  height: 100%;
+  padding: 20px;
+}
+
+.nb.credentials {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  
+  background: white;
+  height: auto;
+  width: 100%;
+  
+  padding: 1%;
+  margin: 0 0 5% 0;
+}
+
+.nb.credentials > .element {
+  width: 15%;
+  height: fit-content;
+}
+
+.element > img {
+  width: 100%;
+  height: 100%;
+}
+
+.element > p {
+  height: 100%;
+  text-align: center;
+  color: black;
+}
+
+.nb.companies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+  width: 100%;
+  padding: 4%;
+  margin-bottom: 5%;
+  
+  background: white;
+}
+
+.nb.companies img {
+  height: 100px;
+  width: auto;
+
+  margin: 2%;
+}
+
+.nb.talk-with-us {
+  display: flex;
+  width: 100%;
+  background: white;
+  padding: 4%;
+}
+
+.nb.talk-with-us div {
+  width: 60%;
+  color: black;
+}
+
+.nb.talk-with-us div > h1 {
+  text-align: left !important;
+  color: black;
+}
+
+.nb.talk-with-us img {
+  padding: 2%;
+  width: 40%;
+  height: auto;
+}
+
+.vl {
+  border-left: 2px solid white;
+  height: auto;
+}
+
+.nb.description.middle {
+  width: 5%;
+  margin-left: 5%;
+}
+
+h1 {
+  font-family: 'Outfit';
+  color:white;
+  font-size:2.3vw;
+  font-weight:600;
+  text-transform: uppercase;
+}
+
+.nb.office {
+  display: flex;
+  margin: 0 5% 5% 0;
+}
+
+.nb.office.left-content {
+  float: left;
+  width: 40%;
+  height: auto;
+}
+
+.nb.infos {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  color: black;
+  padding: 5%;
+  padding-top: 0;
+}
+
+.ui.segment * {
+  width: 100%;
+  padding: 0 10% 0 10%;
+}
+
+.spacing {
+  width: 5%;
+}
+
+.right-content {
+  color: black;
+  width: 55%;
+}
+
+.img-office {
+  background: center / contain no-repeat url("../../assets/images/card-images/escritorio-curitiba.png") !important;
+  width: 400px;
+  height: 500px;
+}
+
+.ods-section {
+  width: 80%;
+  margin: auto;
+}
+
+.nb.talk-with-us p {
+  font-size: 20px;
+}
+
+/*CELULAR*/
+@media only screen and (max-width: 600px) { 
+  .container {
+    width: 100% !important;
+    color: white;
+  }
+  .nb.about-us {
+    display: inline-flex !important;
+    width: 87% !important;
+    height: inherit !important;
+    margin: 5% 0 7% 0;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .nb.about-us img {
+    width: 50% !important;
+  }
+
+  .nb.credentials {
+    flex-wrap: wrap;
+  }
+  
+  .nb.credentials > .element {
+    width: 60% !important;
+  }
+  
+  .nb.office {
+    display: flex;
+    margin: 0 5% 5% 0;
+    flex-wrap: wrap;
+  }
+
+  .img-office {
+    width: 300px;
+    height: 350px;
+    background-attachment: inherit !important;
+    background-size: 100% !important;
+  }
+
+  .nb.credentials img {
+    height: auto;
+  }
+
+  .nb.credentials p {
+    font-size: 4.5vw;
+    margin-top: 5%;
+    margin-bottom: 10%;
+  }
+
+  .nb.office {
+    width: 100%;
+  }
+  
+  .left-content {
+    width: 100%;
+    float: center;
+    padding: 5%;
+    margin-left: 9%;
+  }
+
+  .spacing {
+    display: none;
+  }
+
+  .right-content {
+    width: 100%;
+  }
+
+  .nb.companies img {
+    height: auto;
+    width: 60%;
+    padding: 1%;
+  }
+
+  .nb.infos {
+    padding: 0;
+    justify-content: center;
+  }
+
+  .lista {
+    width: 100%;
+  }
+}

@@ -1,0 +1,66 @@
+.banner {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../assets/images/card-images2/nobis-na-midia.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  width: 80%;
+  height: 550px;
+  margin: 5% 0 5% 0;
+  text-align: center;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner h1 {
+  font-family: 'Outfit';
+  font-weight: 600;
+  font-size:4vw;
+  text-transform: uppercase;
+  width: 500px;
+  color: #FFFFFF;
+}
+
+.container {
+  font-family: 'Outfit';
+  position: relative;
+  display: grid;
+  place-items: center;
+  width: 100%;
+  color: white;
+  font-size: 1.4vw;
+  text-align: center;
+}
+
+.container a {
+  color: white;
+}
+
+.container p {
+  width: 100%;
+  font-weight: 200;
+}
+
+  /* CELULAR */
+@media only screen and (max-width: 600px) {
+
+  .banner h1 {
+    width: 100%;
+    font-size: 6vw;
+  }
+
+  .container {
+    font-size: 4vw;
+  }
+  
+  .container a {
+    color: white;
+    font-size: 3.8vw;
+  }
+  
+  .container p {
+    font-size: 3.8vw;
+    width: 100%;
+    font-weight: 200;
+  }
+}

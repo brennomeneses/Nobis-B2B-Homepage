@@ -1,0 +1,64 @@
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <title>Comunicação & Imprensa</title>
+  <link rel="icon" href="../../assets/images/logos/tab_icon.png">
+
+  <link rel="stylesheet" type="text/css" href="../../_libs/semantic/semantic.min.css">
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous">
+    </script>
+  <script src="../../_libs/semantic/semantic.min.js"></script>
+  <script src="../../js/components/header.js"></script>
+  <script src="../../js/components/footer.js"></script>
+
+  <link rel="stylesheet" href="../../styles/global.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="ui modal transition" id="contactHeaderForm">
+    <i class="close icon"></i>
+    <div class="header">
+      Envie-nos uma mensagem.
+    </div>
+    <div class="scrolling content">
+      <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/embed/v2.js"></script>
+      <script>
+        hbspt.forms.create({
+          region: "na1",
+          portalId: "22203130",
+          formId: "0dbc9e95-6d98-435b-9408-bc02ea5999a1",
+          onFormSubmit: ($form) => {
+            setTimeout(() => {
+              $('#contactForm').modal('hide');
+            }, 2000);
+          }
+        });
+      </script>
+    </div>
+  </div>
+  <custom-header class="custom-header"></custom-header>
+  <div class="container">
+    <div class="banner">
+      <h1>
+        Comunicação & Imprensa
+      </h1>
+    </div>
+    <b>Assessora:</b><br>Josi Quevedo<br>
+      <a target="_blank" href="https://wa.me/5551996230310">+55 (51) 9 9623-0310</a><a target="_blank" href="https://wa.me/5541988674600">+55 (41) 9 8867-4600</a>
+      <a href="mailto:josi.quevedo@smartcom.net.br">josi.quevedo@smartcom.net.br</a>
+      <br><br>
+    <b>Investidores:</b><br>
+    Dra. Claudia Coser - CEO & Fundadora<br>
+    <a href="mailto:falecom@claudiacoser.com.br">falecom@claudiacoser.com.br</a>
+    <a href="mailto:comunicacao@nobisapp.com.br">comunicacao@nobisapp.com.br</a></p>
+  </div>
+</body>
+<footer style="margin-top: 5%">
+  <custom-footer></custom-footer>
+</footer>
+
+</html>

@@ -1,0 +1,263 @@
+body {
+  overflow-x: hidden;
+  background: linear-gradient(90deg, #302C74 0%, #200434 100%) !important;
+}
+
+.banner {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../../assets/images/card-images2/comunicacao-e-branding.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  width: 80%;
+  height: 550px;
+  margin: 5% 0 5% 10%;
+  text-align: center;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner h1 {
+  font-family: 'Outfit';
+  font-weight: 500;
+  font-size:3vw;
+  text-transform: uppercase;
+  width: 500px;
+  
+  color: #FFFFFF;
+}
+
+.section {
+  width: 80%;
+  margin-left: 10%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.section p {  
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 2vw;
+  width: 50%;
+  
+  color: #FFFFFF;
+}
+
+.right-text{
+  text-align: right;
+  font-weight:500 !important;
+}
+
+hr {
+  width: 50%;
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 2px solid #FFFFFF;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.solutions {
+  height: 310px;
+  padding: 20px !important;
+  text-align: center !important;
+  padding-top: 22% !important;
+}
+
+.description {
+  font-size: 20px;
+}
+
+.quote {
+  text-align: left;
+  color: white;
+  font-family: 'Outfit';
+  font-weight: 400;
+}
+
+.phrase {
+  display: inline-block;
+}
+
+.quote h1 {
+  font-size: 3.8vw;
+}
+
+.quote p{
+   font-size: 1.5vw;
+}
+
+.hoe-card {
+  padding: 60px !important;
+  display: flex;
+}
+
+.leftbox {
+  width: 40%;
+}
+
+.rightbox {
+  margin-left: 5%;
+  width: 60%;
+}
+
+.box p {
+  width: 40%;
+}
+
+.box {
+  display: inline-block;
+}
+
+.right-content {
+  width:70%;
+  float: right;
+}
+
+.header-1 {
+  font-family: 'Outfit';
+  font-size: 2.7vw;
+  font-weight: 400;
+}
+
+.header-2 {
+  font-family: 'Outfit';
+  font-size: 1.5vw;
+  font-weight: 200;
+  width: 30%;
+}
+
+.subtitles {
+  width: 65%;
+  float: right;
+}
+
+.sub {
+  display: inline-block;
+  width:200px;
+}
+
+.vl {
+  border-left: 2px solid white;
+  height: auto;
+}
+
+.nb.description {
+  color:white;
+  display: inline-flex;
+  width: 80%;
+}
+
+.nb.description .left {
+  display: grid;
+  place-items: center;
+  text-align: right;
+  margin-right: 10%;
+}
+
+.nb.description.middle {
+  width: 5%;
+  margin-left: 5%;
+}
+
+.nb.description.right {
+  display: grid;
+  text-align: left;
+}
+
+.nb.description.right h1 {
+  text-align: left;
+}
+
+.publicacoes {
+  font-family: 'Outfit';
+  color: white;
+}
+
+.conteudo {
+  padding: 20px;
+  display: inline-block;
+  vertical-align: middle;
+  font-size:20px;
+  text-align: left;
+  width: 450px;
+}
+
+.conteudo hr {
+  width: 100%;
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 2px solid #FFFFFF;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.container {
+  padding: 0 5% 5% 5%;
+}
+
+.lista-final {
+  float: center;
+  width: 80%;
+  text-align: left;
+  border-spacing: 40px;
+  color: white;
+  margin: auto;
+}
+
+.lista-final p {
+  font-family: 'Outfit';
+  color: white;
+  font-weight: 200;
+}
+
+.lista-final img {
+  height: 150px;
+  width: 150px;
+}
+
+.grid-group {
+  display: flex;
+  place-items: center;
+  margin-top: 30px;
+  width: 80%;
+  margin: auto;
+}
+
+  /* CELULAR */
+@media only screen and (max-width: 600px) {
+  body {
+    width: 100%;
+  }
+
+  .section p {
+    font-size: 4vw;
+  }
+
+  .right-text p {
+    font-size: 4vw;
+  }
+  
+  .ui.three.cards {
+    margin-left: -1em;
+    margin-right: -1em;
+    max-width: 100vw;
+  }
+  
+  .banner {
+    width: 80%;
+  }
+
+  .banner h1 {
+    width: 100%;
+    font-size: 6vw;
+  }
+  
+  .leftbox h1 {
+    font-size: 4vw;
+  }
+}

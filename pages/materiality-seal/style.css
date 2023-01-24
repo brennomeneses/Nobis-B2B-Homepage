@@ -1,0 +1,140 @@
+.banner {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../../assets/images/card-images2/selo-de-materialidae.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+background-position: center;
+  
+  width: 80%;
+  height: 550px;
+  margin-top: 5%;
+  text-align: center;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+
+  color: white;
+  text-transform: uppercase;
+}
+
+.vl {
+  border-left: 2px solid white;
+  height: auto;
+}
+
+.selo {
+  width: 50%;
+  padding: 0;
+}
+
+.containner {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  color: white;
+}
+
+.containner h1 {
+  text-align: center;
+}
+
+hr {
+  margin: 2.5% 0 2.5% 0;
+}
+
+.nb.description {
+  display: inline-flex;
+  width: 80%;
+}
+
+.nb.description .left {
+  display: grid;
+  place-items: center;
+  float: left;
+  margin-right: 10%;
+}
+
+.nb.description.left h1 {
+  text-align: left;
+  font-weight: 200;
+}
+
+.nb.description.middle {
+  width: 5%;
+  margin-left: 5%;
+}
+
+.nb.description.right {
+  display: grid;
+  text-align: left;
+}
+
+.nb.description.right h1 {
+  text-align: left;
+}
+
+.ui.cards>.card {
+  padding: 2.4%;
+}
+
+.certifications-card-group {
+  display: flex;
+  place-items: center;
+}
+
+.nb.certificate {
+  margin-top: 5%;
+  width: 50%;
+}
+
+.nb.certificate img {
+  width: 100%;
+}
+
+.ui.segment * {
+  color: black;
+}
+
+.ui.segment h1 {
+  text-align: left;
+}
+
+.ui.segment img {
+  height: 50%;
+  max-width: 380px;
+  width: auto;
+  float: right;
+}
+
+/* CELULAR */
+@media only screen and (max-width: 600px) {
+  .banner h1 {
+    width: 100%;
+    font-size: 6vw;
+  }
+
+  .containner {
+    width: 100%;
+  }
+
+  .nb.certificate {
+    width: 100%;
+  }
+
+  .ui.segment img {
+    width: 100%;
+  }
+
+  .nb.description {
+    width: 90%;
+  }
+
+  .nb.description.left h1 {
+    margin-right: -3%;
+  }
+
+  .selo {
+    width: 80%;
+    padding: 0;
+  }
+
+}

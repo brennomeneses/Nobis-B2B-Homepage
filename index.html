@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Plataforma Nobis</title>
+  <link rel="icon" href="./assets/images/logos/tab_icon.png">
+  <link href="styles/nobis-logo.css" rel="stylesheet" type="text/css" />
+  <link href="styles/style.css" rel="stylesheet" type="text/css" />
+  <link href="styles/global.css" rel="stylesheet" type="text/css" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" type="text/css" href="./_libs/semantic/semantic.min.css">
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous">
+    </script>
+  <script src="./_libs/semantic/semantic.min.js"></script>
+  <script src="js/components/footer.js"></script>
+  <script src="js/script.js"></script>
+</head>
+
+<body>
+  <div class="ui modal transition" id="contactHeaderForm">
+    <i class="close icon"></i>
+    <div class="header">
+      Envie-nos uma mensagem.
+    </div>
+    <div class="scrolling content">
+      <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/embed/v2.js"></script>
+      <script>
+        hbspt.forms.create({
+          region: "na1",
+          portalId: "22203130",
+          formId: "0dbc9e95-6d98-435b-9408-bc02ea5999a1",
+          onFormSubmit: ($form) => {
+            setTimeout(() => {
+              $('#contactForm').modal('hide');
+            }, 2000);
+          }
+        });
+      </script>
+    </div>
+  </div>
+  <div class="parallax slide1">
+    <div class="text-container">
+      <h1 class="title-home">esg é com a nobis</h1>
+      <p class="desc">
+        A ÚNICA Plataforma que integra soluções em ESG de ponta-a-ponta.
+        Conheça nossas soluções:
+      </p>
+      <ul class="lista">
+        <li>
+          <p id="btnImpact" class="hoover">Impacto socioambiental com monitoramento</p>
+        </li>
+        <li>
+          <p id="btnComunicacao" class="hoover">Comunicação e Branding em ESG</p>
+        </li>
+        <li>
+          <p id="btnMaterialidade" class="hoover">Selo de Materialidade</p>
+        </li>
+        <li>
+          <p id="btnESG" class="hoover">Hands-On ESG</p>
+        </li>
+      </ul>
+    </div>
+    <div class="nobis-logo">
+      <img src="./assets/images/logos/nobis_principal_invertida_RGB.png" />
+      <buttom onclick="scrollToTop()" class="hidden" id="toTopButton">
+        <i class="fa fa-angle-double-up" style="font-size:28px"></i>
+      </buttom>
+    </div>
+  </div>
+
+  <div id="impact" class="parallax slide2">
+    <div class="text-container">
+      <p class="supertexto">Até agora, você investiu em assistência ou impacto?</p>
+      <h1 class="title-home">Impacto com monitoramento</h1>
+      <p class="desc">
+        Saiba em tempo real os impactos que seus investimentos promovem para as pessoas, comunidades e o planeta.
+        <a class="show-more" href="pages/impact">
+          saiba mais <i class="arrow right icon"></i>
+        </a>
+      </p>
+    </div>
+  </div>
+
+  <div id="comunicacao" class="parallax slide3">
+    <div class="text-container">
+      <p class="supertexto"></p>
+      <h1 class="title-home">COMUNICAÇÃO E SOCIAL BRANDING</h1>
+      <p class="desc">
+        Até agora sua empresa fez campanhas para dizer que é responsável ou investiu em causas que realmente conectam
+        sua marca a seu público?
+        <a class="show-more" href="pages/comunicacao-branding">
+          saiba mais <i class="arrow right icon"></i>
+        </a>
+      </p>
+    </div>
+  </div>
+
+  <div id="materialidade" class="parallax slide4">
+    <div class="text-container">
+      <h1 class="title-home">SELO DE MATERIALIDADE</h1>
+      <p class="desc">
+        Materialidade de Investimentos em ESG para auditoria e <i>due dilligence</i> em tempo real.
+        <a class="show-more" href="pages/materiality-seal">
+          saiba mais <i class="arrow right icon"></i>
+        </a>
+      </p>
+    </div>
+  </div>
+
+  <div id="esg" class="parallax slide5">
+    <div class="text-container">
+      <h1 class="title-home">HANDS-ON ESG</h1>
+      <p class="desc">
+        Aprenda e implante ESG com um framework ideal para gerar resultados na empresa e stakeholders.
+      </p>
+      <a class="show-more" href="pages/handson-esg">
+        saiba mais <i class="arrow right icon"></i>
+      </a>
+    </div>
+  </div>
+  <br>
+  <div class="credenciais">
+    <div class="left">
+      <h1 class="title">Nossas credenciais:</h1>
+      <p>Somos uma Plataforma ESG. é preciso gerar riquezas cuidando das pessoas e do planeta.</p>
+    </div>
+    <div class="right">
+      <div class="ui segment credentials" style="background: #D9D9D9;">
+        <table>
+          <tr>
+            <td rowspan="2">
+              <img src="assets/images/credentials/un-global.png">
+            </td>
+            <td>
+              <img src="assets/images/credentials/unops-horizontal.png">
+            </td>
+            <td rowspan="2">
+              <img src="assets/images/credentials/selo-ods.png">
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <img src="assets/images/credentials/un-climate.png">
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <h1 class="title">Outras Soluções</h1>
+  <div class="grid-group">
+    <div class="ui three stackable cards">
+      <div class="card">
+        <div class="image">
+          <img src="../../assets/images/card-images2/palestras.jpg" style="height: 190px;">
+        </div>
+        <div class="content">
+          <a class="header">
+            Palestras
+          </a>
+          <p class="description">
+            Atualize os conhecimentos, reflexões e práticas em ESG com especialistas que entregam resultados.
+          </p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="image">
+          <img src="../../assets/images/card-images2/esgcast-banner.jpg" style="height: 190px;">
+        </div>
+        <div class="content">
+          <a href="pages/esgcast" class="header">
+            ESGCAST
+          </a>
+          <p class="description">
+            Acompanhe o primeiro podcast focado em ESG com contextos atuais de maneira direta.
+          </p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="image">
+          <img src="../../assets/images/card-images/handsonesg.jpg" style="height: 190px;">
+        </div>
+        <div class="content">
+          <a href="pages/nobis-na-midia" class="header">
+            Nobis na mídia
+          </a>
+          <p class="description">
+            Por aqui você fica por dentro dos estudos, pesquisas e artigos da Comunidade Nobis.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+<footer style="margin-top: 5%">
+  <custom-footer></custom-footer>
+</footer>
+
+</html>

@@ -1,0 +1,124 @@
+.banner {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../assets/images/card-images2/esgcast-banner.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  width: 80%;
+  height: 550px;
+  margin: 5% 0 5% 0;
+  text-align: center;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner h1 {
+  font-family: 'Outfit';
+  font-weight: 600;
+  font-size:4vw;
+  text-transform: uppercase;
+  width: 500px;
+  color: #FFFFFF;
+}
+
+#subtitulo {
+  font-size: 0.3em;
+}
+
+.container {
+  position: relative;
+  display: grid;
+  place-items: center;
+  width: 100%;
+  color: white;
+}
+
+.container h1 {
+  text-align: center;
+}
+
+.nb.description {
+  display: inline-flex;
+  width: 70%;
+}
+
+.nb.description.left {
+  display: grid;
+  place-items: center;
+  float: left;
+  margin-right: 10%;
+}
+
+.nb.description.left h1 {
+  width: 150px;
+  text-align: right;
+  font-weight: 200;
+}
+
+.nb.description.right {
+  display: grid;
+  text-align: left;
+}
+
+.nb.description.right h1 {
+  text-align: left;
+}
+
+.vl {
+  border-left: 2px solid white;
+  height: auto;
+}
+
+.nb.description.middle {
+  width: 5%;
+  margin-left: 5%;
+}
+
+.lista {
+  float: center;
+  width: 80%;
+  text-align: left;
+  color: white;
+  margin: auto;
+}
+
+.lista img {
+  height: 70px;
+}
+
+#youtube {
+  height: 500px;
+}
+
+/* CELULAR */
+@media only screen and (max-width: 600px) {
+  .banner h1 {
+    width: 100%;
+    font-size: 6vw;
+  }
+  
+  #subtitulo {
+    font-size: 0.7em;  
+  }
+
+  .lista {
+    float: center;
+    width: 80%;
+    text-align: left;
+    color: white;
+    margin: auto;
+  }
+
+  .lista img {
+    height: 35px;
+  }
+
+  #youtube {
+    height: 150px;
+  }
+
+  #google {
+    height: 30px;
+    width: 100%;
+  }
+}

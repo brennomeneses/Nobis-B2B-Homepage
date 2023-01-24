@@ -1,0 +1,221 @@
+body {
+  overflow-x: hidden;
+  background: linear-gradient(90deg, #302C74 0%, #200434 100%) !important;
+}
+
+.banner {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../../assets/images/card-images/handson.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  width: 80%;
+  height: 550px;
+  margin: 5% 0 5% 0;
+  text-align: center;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.banner h1 {
+  font-family: 'Outfit';
+  font-weight: 500;
+  font-size:4vw;
+  text-transform: uppercase;
+  width: 500px;
+  
+  color: #FFFFFF;
+}
+
+.container {
+  position: relative;
+  display: grid;
+  place-items: center;
+  width: 100%;
+  color: white;
+}
+
+.container h1 {
+  text-align: center;
+}
+
+.nb.description {
+  display: inline-flex;
+  width: 80%;
+}
+
+.nb.description.left {
+  display: grid;
+  place-items: center;
+  float: left;
+  margin-right: 10%;
+}
+
+.nb.description.left h1 {
+  text-align: left;
+  font-weight: 200;
+}
+
+.nb.description.right {
+  display: grid;
+  text-align: left;
+}
+
+.nb.description.right h1 {
+  text-align: left;
+}
+
+.cursos {
+  width: 100%;
+}
+
+.outdoor {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../assets/images/card-images2/esg-no-negocio.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  margin:0%;
+  width: 100%;
+  height: 400px;
+  padding:5%;
+}
+
+.outdoor h1 {
+  position: absolute;
+  bottom: 3%;
+  text-align: left;
+  font-weight: 200;
+  font-size: 1.8vw;
+  width: 190px;
+  float: left;
+}
+
+.vl {
+  border-left: 2px solid white;
+  height: auto;
+}
+
+.nb.description.middle {
+  width: 5%;
+  margin-left: 5%;
+}
+
+.ui.segment * {
+  color: black;
+  padding: 3%;
+}
+
+.ui.segment h1 {
+  text-align: left;
+}
+
+.grid-group {
+  display: flex;
+  place-items: center;
+  margin-top: 30px;
+  width: 80%;
+  margin: auto;
+}
+
+.name {
+  font-weight: 400;
+  font-family: 'Outfit';
+  text-transform: uppercase;
+}
+
+.parceiros-conteudo {
+  display: flex;
+}
+
+.text-left {
+  float: left;
+  width: 50%;
+}
+
+.map-right {
+  float:right;
+  width: 50%;
+}
+
+.map-right img {
+  width: 550px;
+  margin: auto;
+}
+
+.parceiros {
+  background-color: white;
+  margin: auto;
+  padding: 5%;
+  width: 80%;
+  border-radius: 13px;
+}
+
+.text-left button {
+  border-radius: 25px;
+}
+
+.botoes {
+  width: 80%;
+}
+
+#botao {
+  margin-left: -85px;
+}
+
+/* CELULAR */
+@media only screen and (max-width: 600px) {
+  body {
+    margin: 0%;
+    padding: 0%;
+  }
+  
+  .banner h1 {
+    width: 100%;
+    font-size: 6vw;
+  }
+
+  .ui.three.cards {
+    margin-left: 0.1em;
+    max-width: 100vw;
+  }
+
+  #img2023 {
+    height: 100px;
+  }
+
+  .equipes {
+    border-radius: 0%;
+    width: 100%;
+  }
+
+  .equipes h1 {
+    font-size: 4vw;
+  }
+
+  .equipes-left {
+    width: 50%;
+  }
+
+  .equipes-right {
+    width: 40%;
+  }
+
+  .parceiros {
+    width: 100%;
+    border-radius: 0%;
+  }
+
+  .map-right img {
+    margin-top: 100%;
+    width: 100%;
+  }
+
+  .outdoor h1 {
+    font-size: 4vw;
+  }
+
+  #botao {
+    margin-left: -1%;
+  }
+}

@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <title>Hands-On ESG</title>
+  <link rel="icon" href="../../assets/images/logos/tab_icon.png">
+
+  <link rel="stylesheet" type="text/css" href="../../_libs/semantic/semantic.min.css">
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous">
+    </script>
+  <script src="../../_libs/semantic/semantic.min.js"></script>
+  <script src="../../js/components/header.js"></script>
+  <script src="../../js/components/footer.js"></script>
+
+  <link rel="stylesheet" href="../../styles/global.css">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <!-- MODAL ENTRE EM CONTATO -->
+  <div class="ui modal transition" id="contactHeaderForm">
+    <i class="close icon"></i>
+    <div class="header">
+      Envie-nos uma mensagem.
+    </div>
+    <div class="scrolling content">
+      <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/embed/v2.js"></script>
+      <script>
+        hbspt.forms.create({
+          region: "na1",
+          portalId: "22203130",
+          formId: "0dbc9e95-6d98-435b-9408-bc02ea5999a1",
+          onFormSubmit: ($form) => {
+            setTimeout(() => {
+              $('#contactHeaderForm').modal('hide');
+            }, 2000);
+          }
+        });
+      </script>
+    </div>
+  </div>
+  <!-- MODAL TERCEIRO SETOR -->
+  <div class="ui modal transition" id="PDForm">
+    <i class="close icon"></i>
+    <div class="header">
+      NOBIS ACADEMY - ESG E TERCEIRO SETOR
+    </div>
+    <div class="scrolling content">
+      <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/embed/v2.js"></script>
+      <script>
+        hbspt.forms.create({
+          rregion: "na1",
+          portalId: "22203130",
+          formId: "6c3fd300-79b6-4f17-b1fa-72f98f2a1040",
+          onFormSubmit: ($form) => {
+            setTimeout(() => {
+              $('#PDForm').modal('hide');
+            }, 2000);
+          }
+        });
+      </script>
+    </div>
+  </div>
+  <custom-header class="custom-header"></custom-header>
+  <div class="container">
+    <div class="banner">
+      <h1>Hands-on ESG</h1>
+    </div>
+    <div class="nb description">
+      <div class="nb description left">
+        <h1>
+          ESG como Vetor
+          Estratégico do Negócio
+        </h1>
+      </div>
+      <div class="nb description right">
+        <h1>
+          Aprender
+        </h1>
+        <p>
+          Construa novos saberes adaptados ao framework da empresa
+        </p>
+        <hr />
+        <h1>
+          Fazer
+        </h1>
+        <p>
+          Implante ESG no negócio para intensificar a geração de valor
+        </p>
+        <hr />
+        <h1>
+          Avaliar
+        </h1>
+        <p>
+          Monitoramento de resultados da implantação de ESG em todas as áreas
+        </p>
+      </div>
+    </div>
+    <br><br><br>
+    <div>
+      <h1 class="title" style="margin-left: 0;">Oficinas Hands-On</h1>
+      <br>
+      <div class="ui three stackable cards cursos">
+        <div class="card">
+          <div class="content">
+            <h1 class="header">Equipes na mesma página</h1>
+            <p class="description">Coloque os times da empresa alinhados ao ESG</p>
+            <br>
+            <center>
+              <a target="_blank" href="https://negocios.nobisapp.com.br/equipes"><button class="ui violet button">Saiba
+                  Mais</button></a>
+            </center>
+            <br>
+          </div>
+        </div>
+        <div class="card">
+          <div class="content">
+            <h1 class="header">S do ESG na prática</h1>
+            <p class="description">Coloque o S na estratégia do negócio e gere impacto dentro e fora</p>
+            <center>
+              <a target="_blank" href="https://negocios.nobisapp.com.br/pratica-esg"><button
+                  class="ui violet button">Saiba Mais</button></a>
+            </center>
+          </div>
+        </div>
+        <div class="card">
+          <div class="content">
+            <h1 class="header">Agilis em ESG: Implantação</h1>
+            <p class="description">Implante ESG com quem entrega resultados</p>
+            <br>
+            <center>
+              <a target="_blank" href="https://negocios.nobisapp.com.br/implantacao"><button
+                  class="ui violet button">Saiba Mais</button></a>
+            </center>
+            <br>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br><br><br>
+    <div class="outdoor">
+      <h1>ESG pensado para seu negócio</h1>
+    </div>
+  </div>
+  <br><br>
+  <div class="container">
+    <div class="nb description">
+      <div class="nb description left" style="display: contents;">
+        <h1>
+          Na medida certa
+        </h1>
+      </div>
+      <div class="nb description middle">
+        <div class="vl"></div>
+      </div>
+      <div class="nb description right">
+        <h1>Exclusividade e framework estratégico</h1>
+        <p>
+          Na Plataforma Nobis cada empresa é única: pessoas, processos, cultura e resultados.
+        </p>
+      </div>
+    </div>
+    <br><br>
+  </div>
+  <div class="ui segment equipes" style="height: 400px;">
+    <div class="equipes-right" style="width: 40%; float: right;">
+      <img id="img2023" src="../../assets/images/card-images/equipes-na-mesma-pagina.jpg" height="300px" />
+    </div>
+    <div class="equipes-left" style="width: 40%; float: left;">
+      <h1>2023 é o ano de colocar suas equipes na mesma página</h1>
+      <p>
+        Converse agora com um especialista para entender qual é a melhor solução para o seu negócio.
+      </p>
+      <center>
+        <button id="botao" class="ui basic violet button large" onclick="$('#contactForm').modal('show');">
+          Fale conosco
+        </button>
+      </center>
+      <div class="ui modal transition" id="contactForm">
+        <i class="close icon"></i>
+        <div class="header">
+          Envie-nos uma mensagem.
+        </div>
+        <div class="scrolling content">
+          <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/embed/v2.js"></script>
+          <script>
+            hbspt.forms.create({
+              region: "na1",
+              portalId: "22203130",
+              formId: "53bd90d4-3c9c-48cc-8ee7-aef5ffe79897",
+              onFormSubmit: ($form) => {
+                setTimeout(() => {
+                  $('#contactForm').modal('hide');
+                }, 2000);
+              }
+            });
+          </script>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <br>
+  <h1 class="title">Outras Soluções</h1>
+  <div class="grid-group">
+    <div class="ui three stackable cards">
+      <div class="card">
+        <div class="image">
+          <img src="../../assets/images/card-images2/comunicacao-e-branding.jpg" style="height: 190px;">
+        </div>
+        <div class="content">
+          <a class="header" href="../comunicacao-branding/">
+            Comunicação &
+            Branding em ESG
+          </a>
+          <p class="description">
+            Desenvolva e capacite seus times. Conheça os nossos cursos in company.
+          </p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="image">
+          <img src="../../assets/images/card-images2/selo-de-materialidae.jpg" style="height: 190px;">
+        </div>
+        <div class="content">
+          <a class="header" href="../materiality-seal/">
+            Selo de materialidade
+            de impacto
+          </a>
+          <p class="description">
+            Desenvolva e capacite seus times. Conheça os nossos cursos in company.
+          </p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="image">
+          <img src="../../assets/images/card-images2/impacto-monitoramento-capa.jpg" style="height: 190px;">
+        </div>
+        <div class="content">
+          <a class="header" href="../impact/">
+            Impacto com
+            monitoramento
+          </a>
+          <p class="description">
+            Desenvolva e capacite seus times. Conheça os nossos cursos in company.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br><br><br>
+  <div class="parceiros">
+    <div class="parceiros-conteudo">
+      <div class="text-left">
+        <h1 class="name"><b>Hands-On Nobis:</b><br>Terceiro Setor</h1>
+        <p>Traga sua organização para a Jornada de Qualificação: Impacto com ESG da Nobis Academy.
+          Qualificamos e selecionamos Organizações do Terceiro Setor para gerar impacto e transformação, transcendendo a
+          assistência.
+        </p>
+        <p><i class="play icon"></i> ESG e Terceiro Setor - 20h</p>
+        <p><i class="play icon"></i> Ecossistema de Operadores de Impacto da Empresa - 12h</p>
+        <br>
+        <div class="ui two column stackable center aligned grid botoes">
+          <div class="middle aligned row">
+            <div class="column">
+              <button onclick="$('#PDForm').modal('show');" class="ui black button">Saiba Mais</button>
+            </div>
+            <div class="column">
+              <a target="_blank" href="https://nobisapp.com.br/lda/"><button class="ui black button">Edital</button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="map-right">
+        <img src="../../assets/images/icons/map_impact.png">
+      </div>
+    </div>
+  </div>
+
+
+</body>
+<footer style="margin-top: 5%">
+  <custom-footer></custom-footer>
+</footer>
+
+</html>
