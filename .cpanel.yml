@@ -3,4 +3,3 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/nobisappcomb/esg2.nobisapp.com.br/
     - /bin/cp -R * $DEPLOYPATH
-    - chmod -R 644 *
