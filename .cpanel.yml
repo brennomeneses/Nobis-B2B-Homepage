@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/nobisappcomb/esg2.nobisapp.com.br/
+    - export DEPLOYPATH=/home/nobisappcomb/esg.nobisapp.com.br/
     - /bin/cp -R * $DEPLOYPATH
