@@ -1,14 +1,12 @@
-@import "mobile.css";
-
 body{
   overflow-x: hidden;
 }
 
 .banner {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../../assets/images/card-images2/impacto-monitoramento-capa.jpg");
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../../assets/images/banners/impacto-monitoramento-capa.jpg");
   background-size: cover;
   background-attachment: fixed;
-background-position: center;
+  background-position: center;
   
   width: 80%;
   height: 550px;
@@ -174,6 +172,10 @@ background-position: center;
   padding: 0;
 }
 
+.how-it-works {
+  width: 100%;
+}
+
 .centerlized {
   margin: 0 auto;
 }
@@ -196,8 +198,8 @@ background-position: center;
   float: left;
   margin: 25px;
 
-  height: 250px;
-  width: auto;
+  height: auto;
+  width: 400px;
 }
 
 #building2Image {
@@ -308,4 +310,149 @@ background-position: center;
 
 .botoes {
   width: 80%;
+}
+
+.onu {
+  width: 50%;
+  background: #D9D9D9 !important;
+}
+
+
+@media only screen and (max-width: 600px) {
+  body {
+    padding: 1%;
+  }
+  .padding-content{
+    width: 100vw;
+    padding: 0;
+  }
+  .parceiros {
+    width: 100vw;
+    border-radius: 0%;
+    margin-bottom: 5%;
+    padding: 5%;
+  }
+  .parceiros-conteudo {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .map-right img {
+    width: 100% !important;
+    height: auto;
+  }
+
+  .segment-card {
+    color: black;
+    width: 100%;
+    margin-bottom: 15px !important;
+    display: flex !important;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .saibaMais {
+    float: right;
+    margin: unset !important;
+    font-size: unset !important; 
+}
+  
+  .banner h1 {
+    width: 100%;
+    font-size: 6vw;
+  }
+  
+  .ui.grid > .column:not(.row), .ui.grid > .row > .column {
+    display: flex !important;
+    flex-direction: column-reverse;
+    width: 100% !important;
+  }
+
+  .grid-box {
+    display: flex !important;
+    place-items: center;
+    color: white;
+    flex-wrap: wrap !important;
+    flex-direction: row !important;
+  }
+  .grid-group {
+    display: flex;
+    place-items: center !important;
+    margin-top: 30px;
+    width: 100%;
+    flex-wrap: nowrap !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+  }
+
+  .ui.fluid.card {
+    padding: 0px;
+    margin: 0 !important;
+}
+  
+  .flex-dir {
+    flex-wrap: wrap !important;
+    flex-direction: column !important;
+  }
+
+  #basfImage {
+    float: right;
+    margin: 10px;
+    height: 200px !important;
+    width: auto;
+  }
+  #cardAmazoniaImage2 {
+    float: unset !important;
+    margin: 0 !important;
+    height: auto !important;
+    width: 80vw !important;
+  }
+  #building2Image {
+    float: unset !important;
+    margin-left: 0 !important;
+    height: 400px;
+    width: auto;
+  }
+  
+  .left-text {
+    font-size: 4vw !important;
+  }
+  .right-text {
+    font-size: 4vw !important;
+  }
+
+  #cardAmazoniaImage {
+    width: 350px;
+    height: auto;
+  }
+
+  #cardWomansImpact {
+    width: 300px;
+  }
+
+  #sdoImage {
+    height: auto;
+    width: 350px;
+  }
+
+  .text {
+    font-size: 3vw;
+  }
+
+  .content2 {
+    width: 100vw;
+  }
+
+  .header-1 {
+    text-align: center !important;
+  }
+
+  .onu {
+    width: 100% !important;
+  }
+
+  .consorcio {
+    width: 100vw !important;
+    text-align: center;
+  }
 }
