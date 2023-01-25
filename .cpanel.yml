@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/nobisappcomb/public_html/
+    - /bin/cp -R * $DEPLOYPATH
+    - chmod -R 644 *
